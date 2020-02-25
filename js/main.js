@@ -2,10 +2,10 @@ new Vue({
   el: '#app',
   data() {
     return {
-       todoList: [
-        {"id":0,"title":"Create ToDoList with localStorage,"done":true},
-        {"id":1,"title":"Create resume","done":false},
-        {"id":4,"title":"Particle.js","done":false}
+        todoList: [
+        {"id":0,"title":"Particle","done":false},
+        {"id":1,"title":"add input restrictions","done":false},
+        {"id":4,"title":"Create To Do List with localStorage","done":true}
       ],
       new_todo: '',
       showComplete: false,
