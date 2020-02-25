@@ -2,10 +2,10 @@ new Vue({
   el: '#app',
   data() {
     return {
-      todoList: [
-        {"id":0,"title":"Go to codepen and get inspired","done":false},
-        {"id":1,"title":"Pick a project","done":false},
-        {"id":4,"title":"Create a new pen","done":true}
+       todoList: [
+        {"id":0,"title":"Create ToDoList with localStorage,"done":true},
+        {"id":1,"title":"Create resume","done":false},
+        {"id":4,"title":"Particle.js","done":false}
       ],
       new_todo: '',
       showComplete: false,
